@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    position: fixed;
+    justify-content: space-between;
+    text-align: center;
+    border-color: brown;
+    background-color: rgb(192, 189, 189);
+    border-style: double;
+}
+
+
+.card-title {
+    text-decoration: none;
+}
+
+
+.textoSobreMi {
+    color: rgb(60, 60, 60);
+    padding-top: 25px;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container-sm {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(11, 108, 125);
+}
+
+.fotoIsabel:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.3);
+    ;
+}
+
+
+#container-md-2 {
+    padding: 25px;
+    text-align: center;
+    margin-left: 5%;
+    font-size: x-large;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+
+.container-md {
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 60px;
+    background: linear-gradient(80deg, rgb(82, 177, 193) 0%, rgb(178, 222, 219) 15%, rgb(149, 179, 185) 5%, rgb(207, 222, 222) 8%, rgb(137, 183, 190) 5%, rgb(201, 212, 214) 35%, rgb(215, 229, 232) 35%, rgb(193, 219, 223) 35%, rgb(254, 254, 254) 100%);
+    display: flex;
+    vertical-align: top;
+    font-size: x-large;
+    line-height: 1.5;
+    overflow: hidden;
+
+}
+
+.fotoIsabel {
+
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+
+}
+
+.container-lg {
+    margin: 40px;
+    width: 40%;
+    height: 40%;
+    padding-top: 30px;
+
+}
+
+.textobotton {
+    text-align: center;
+    font-family: monospace;
+    font-size: medium;
+    color: rgb(7, 7, 7);
+}
+
+.SobreMi {
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 14, 14);
+
+
+
+}
+
+.card-body {
+    background-color: rgb(249, 254, 255);
+}
+
+
+.card {
+
+    margin: auto;
+    width: 90%;
+}
+
+.card-img-top:hover {
+    filter: grayscale(80%);
+
+}
+
+.card:hover {
+
+    box-shadow: 5px 5px 10px rgb(187, 234, 237);
+    width: 65%;
+    margin: none;
+
+}
+
+a {
+    color: brown;
+}
+
+.segundoDiv {
+    font-size: l;
+    border-style: double;
+    border-color: black;
+    position: relative;
+    bottom: 150px;
+    left: 25px;
+}
+
+p {
+    z-index: 1;
+}
+
+.fa-solid:hover {
+
+    color: rgb(99, 144, 30);
+}
+
+b:hover {
+    text-align: center;
+    color: rgb(99, 144, 30);
+}
+
+h3 {
+    line-height: 1.5;
+    font-family: monospace;
+}
+
+.contenedor {
+
+    position: relative;
+}
+
+.hijo {
+    width: 25%;
+    height: 20cm;
+
+    background-color: rgb(176, 175, 175);
+
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 0%);
+}
+
+.primerBotton {
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    border-radius: 10px;
+    font-family: cursive;
+    background-color: rgb(40, 110, 110);
+    border-style: none;
+    text-align: center;
+    margin: none;
+    width: 60px;
+    color: white;
+}
+
+.segundoBotton {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    border-radius: 10px;
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(40, 110, 110);
+    text-align: center;
+    margin: none;
+    width: 60px;
+    color: rgb(40, 110, 110);
+}
+
+.textoInferior {
+    text-align: center;
+    font-size: medium;
+    font-family: monospace;
+}
+
+@media (max-width: 720px) {
+    .card {
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+
+    }
+}
+
+
+
+@media (max-width: 1800px) {
+    .card {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        position: relative;
+
+
+    }
+}
+
+@media (max-width: 889px) {
+    .fotoIsabel {
+        text-align: center;
+        width: 30%;
+        margin-top: 20px;
+        position: relative;
+
+
+    }
+}
+
+@media (max-width: 755px) {
+    .textoSobreMi {
+        border: 1px solid #333333;
+        width: 400px;
+        height: 200px;
+        overflow-y: scroll;
+        padding-top: 35px;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        float: right;
+
+    }
+}
